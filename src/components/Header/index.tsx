@@ -7,19 +7,19 @@ import { NewTransactionModal } from '../NewTransactionModal'
 import logoImg from '../../assets/logo.svg'
 
 export function Header() {
-    return (
-        <HeaderContainer>
-            <HeaderContent>
-                <img src={logoImg} alt='Logo DT Money' />
+  return (
+    <HeaderContainer>
+      <HeaderContent>
+        <img src={logoImg} alt="Logo DT Money" />
 
-                <Dialog.Root>
-                    <Dialog.Trigger asChild>
-                        <NewTransactionButton>Nova transação</NewTransactionButton>
-                    </Dialog.Trigger>
+        <Dialog.Root>
+          <Dialog.Trigger asChild>
+            <NewTransactionButton>Nova transação</NewTransactionButton>
+          </Dialog.Trigger>
 
-                    <NewTransactionModal />
-                </Dialog.Root>
-            </HeaderContent>
-        </HeaderContainer>
-    )
+          <NewTransactionModal />
+        </Dialog.Root>
+      </HeaderContent>
+    </HeaderContainer>
+  )
 }
