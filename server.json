@@ -39,6 +39,14 @@
       "type": "outcome",
       "createdAt": "2022-08-16T18:24:17.574Z",
       "id": 5
+    },
+    {
+      "description": "Café da Manhã",
+      "category": "Alimentação",
+      "price": 50,
+      "type": "outcome",
+      "createdAt": "2022-08-16T18:28:13.716Z",
+      "id": 6
     }
   ]
 }
